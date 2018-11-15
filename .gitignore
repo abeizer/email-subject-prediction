@@ -111,5 +111,5 @@ venv.bak/
 dmypy.json
 
 #Project-specific folders and files
-enron_dataset/
-enron emails.csv
+saved assets/
+enron/
