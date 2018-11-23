@@ -13,7 +13,7 @@ This project utilizes machine learning concepts to predict the subject of an ema
 3. Create a sub-folder in the enron folder, named `initial`
 4. Move the unzipped dataset into `/enron/initial`
 
-### Data Manipulation.ipynb
+### Feature-Extraction.ipynb
 #### Summary
 This file is responsible for loading the dataset and changing its structure slightly so that it can be more easily used for our machine learning.
 
@@ -28,7 +28,7 @@ Open the file in Jupyter notebook. Run the entire file. It may take some time, a
 
 These sets take a decent chunk of memory. You can optionally shutdown the notebook to free memory for the next steps.
 
-### Clustering
+### Pre-processing.ipynb
 #### Summary
 In this file, we load the training set and start looking at how we can define possible email topics.
 
