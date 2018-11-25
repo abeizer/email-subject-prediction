@@ -43,6 +43,9 @@ pip install spacy
 python -m spacy download en
 ```
 
+The main cleaning function used in this notebook takes a very long time to run. I let it run overnight. The output is a cleaned train set, which is then saved locally. I provide a copy of the cleaned train set [here](https://drive.google.com/open?id=1BlFZmsxbHw1liNMa4o29jgTOIcY9BBSJ)
+
+
 ## Authors:
 * [@antakij1](https://github.com/antakij1)
 * [@abeizer](https://github.com/abeizer)
