@@ -113,3 +113,5 @@ dmypy.json
 #Project-specific folders and files
 saved assets/
 enron/
+enron.csv
+enron_labeled.csv
