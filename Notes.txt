@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=SmtItlE1J5o
+	Unsupervised learning in text analysis example.
+
+
+List of things to remove from text:
+	* <Embedded Picture (Device Independent Bitmap)>
+	* Dates
+	* Numbers
+	* Names?
+	* Email addresses
+		Names + emails might be enough to remove from the header
+	* Special Characters that show up frequently --> '-' and '/'
+		Should '&' be replaced with 'and' ?
+			NO --> these characters both tagged as CC
+	* Other punctuation?
+		POS tagging is done before removing punctuation.
+		Therefore, lack of punctuation shouldnt affect the meaning of the sentence if removed.
+	* 
